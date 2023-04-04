@@ -1,0 +1,18 @@
+services:
+  java:
+    image: akhilesh11/nitjava:latest
+    ports:
+      - "8000:80"
+
+  devops:
+    image: akhilesh11/nitdevops:latest
+    ports:
+      - "8001:80"
+
+  datascience:
+    image: akhilesh11/nitdatascience:latest
+    ports:
+      - "8002:80"
+
+
+
